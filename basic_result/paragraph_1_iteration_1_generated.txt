@@ -1,4 +1,4 @@
-### Paragraph 1, Iteration 1 Generated Text:
+### Paragraph 1, Iteration 1 Generated Text: (8.3)
 
 [INST] 
             Please read the following text and generate an explanation suitable for a **basic-level audience**. Use **friendly and everyday language** to make the explanation simple and relatable. Ensure that the output is written at a **Flesch-Kincaid Grade Level of approximately 6**. Follow the **exact format provided below**, and avoid including any information outside of this structure.
