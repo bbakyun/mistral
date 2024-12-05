@@ -1,0 +1,47 @@
+### Paragraph 6, Iteration 1 Feedback:
+
+[INST] 
+            Please evaluate the following explanation based on the following criteria:
+            1. Does it use friendly and everyday language suitable for a 6th grader?
+            2. Does it include all IT terms mentioned in the input text, with clear and relatable explanations?
+
+            After evaluating, provide feedback on how the explanation can be improved. Write the feedback in 1-2 sentences.
+
+            - Provide only the feedback without repeating the input text or adding comments.
+
+            ### Explanation to Evaluate:
+            [INST] 
+            Please read the following text and generate an explanation suitable for a **basic-level audience**. Use **friendly and everyday language** to make the explanation simple and relatable. Ensure that the output is written at a **Flesch-Kincaid Grade Level of approximately 6**. Follow the **exact format provided below**, and avoid including any information outside of this structure.
+
+            ### Explanation Format:
+            - **Explanation of the Topic**: 
+              Provide a clear summary of the main topic or concept discussed in the input text. Use friendly and conversational language.
+
+            - **IT Domain Terms and Definitions**: 
+              Identify IT-related technical terms in the input text and explain each term in a way that's easy to understand. Use analogies or examples from daily life to make the explanation relatable. For example:
+                - *"Cloud Computing"*:
+                  Imagine storing your favorite photos and videos in a magical online photo album that you can access from any device, anywhere. That’s what cloud computing does for your data.
+
+            ### Output Requirements:
+            - Write in clear and simple language that a 6th grader could understand.
+            - Include only the simplified explanation and term definitions in the output. 
+            - Do not include the additional comments, or any unrelated information.
+            - Provide only the explanation without repeating the input text or adding comments.
+
+            Here is the original text to explain:
+            So we looked at the RAG takes to build such an Now let's look at some of How would you go ahead and implement this? We have three patents. The first one here is a way to manually update this metadata. So let me walk you through that. You have a use case where you want to create a Chatbot application, you have a lot of personas, and now what you do is you you may have uploaded In this pattern, what you the metadata file along with the objects you have in your S3 bucket. So each document in your S3 would have a corresponding metadata file. Now, when the user signs in again, we are taking example the user, the application based on user or the role When Amazon Bedrock these documents along with to Amazon OpenSearch Vector store. So when the user prompt comes the filters are mapped to the and that's how the user only that they should have access to and not the entire Vector store. So this is similar to what The next pattern here is to use the default So when you create a Knowledge it automatically propagates which is nothing but the S3 prefix. So let's talk about the use case. Again, you have a lot of and you have a lot of but now you have these documents stored in each user's prefix, right? And prefixes are nothing synonymous to what we have in Amazon S3. We call prefix in S3. So each user has its own prefix. You upload documents in and Knowledge Bases would to the Vector store. So what happens is now when identity provider, the filter is added to the prompt or the query and this maps to the user or the role. And that's how the application understands what is the prefix that it With that information, to the metadata and that user only has access the corresponding documents The last pattern we have here is where, as an organization, you use This could be Microsoft could be Okta, it could be anything else, paying jump clouds, so on and so forth. In this pattern, similar the metadata is now propagated Now, S3 access grants allow you to have temporary credentials not just with IAM users and roles. So IAM identities, but With S3 access grant, these to the Amazon OpenSearch Vector And then when the user sign in using one of the identity provider, And with Access grants, you you get back temporary credentials, and then the application tier adds filter. The filter is mapped to the metadata and the user has access to and they're restricted to those documents and not have access to So these are some of the use There are other use cases and other patterns that you Now, we'll quickly see this in action.
+
+            Output:
+             [/INST] - **Explanation of the Topic**: This text talks about different ways to implement access control for a Chatbot application using Amazon OpenSearch Vector store and metadata files. The first method is manually updating metadata, the second is using default S3 prefixes, and the third is using identity providers and S3 access grants.
+
+- **IT Domain Terms and Definitions**:
+  - **Amazon OpenSearch Vector store**: A place where data is saved so that a computer program can search it quickly and accurately. It's like a big library where the computer can find what it needs easily.
+  - **Metadata**: Information about other data, like a label or description. It's like a label on a box that tells you what's inside.
+  - **S3 bucket**: A storage space in the cloud where you can keep files. It's like a giant digital filing cabinet.
+  - **Prefix**: A beginning part of a file name in Amazon S3. It's like having different folders in your digital filing cabinet.
+  - **Identity provider**: A service that verifies your identity, like your school or work. It's like having a teacher or boss vouch for you.
+  - **S3 access grant**: A temporary permission to access specific files in an Amazon S3 bucket. It's like getting a key that only opens a certain drawer in a filing cabinet.
+  - **IAM**: Short for Identity and Access Management. It's a service that helps manage access to AWS services and resources securely. It's like having a security guard who checks who can go where.
+
+            Feedback:
+             [/INST] The explanation uses clear and friendly language that is suitable for a 6th grader. However, some terms like "Vector store" and "metadata" could be explained with more relatable analogies to make them easier to understand. Additionally, the explanation could benefit from breaking down the steps in each method into simpler terms for better clarity. Overall, the explanation is clear and mostly follows the required format.

@@ -1,0 +1,107 @@
+### Paragraph 5, Iteration 1 Refined Text:
+
+[INST] 
+            Please revise the following explanation based on the provided feedback. Ensure that the updated explanation is clear, uses friendly language, and includes all necessary IT terms with proper definitions.
+
+            ### Original Explanation:
+            [INST] 
+            Please read the following text and generate an explanation suitable for a **basic-level audience**. Use **friendly and everyday language** to make the explanation simple and relatable. Ensure that the output is written at a **Flesch-Kincaid Grade Level of approximately 6**. Follow the **exact format provided below**, and avoid including any information outside of this structure.
+
+            ### Explanation Format:
+            - **Explanation of the Topic**: 
+              Provide a clear summary of the main topic or concept discussed in the input text. Use friendly and conversational language.
+
+            - **IT Domain Terms and Definitions**: 
+              Identify IT-related technical terms in the input text and explain each term in a way that's easy to understand. Use analogies or examples from daily life to make the explanation relatable. For example:
+                - *"Cloud Computing"*:
+                  Imagine storing your favorite photos and videos in a magical online photo album that you can access from any device, anywhere. That’s what cloud computing does for your data.
+
+            ### Output Requirements:
+            - Write in clear and simple language that a 6th grader could understand.
+            - Include only the simplified explanation and term definitions in the output. 
+            - Do not include the additional comments, or any unrelated information.
+            - Provide only the explanation without repeating the input text or adding comments.
+
+            Here is the original text to explain:
+            Persona-based access and let's see how we can do that. So again, we have our documents. So here you will see two which are our metadata files. So in addition to our marketing and finance related to upload some metadata files here. Now we are also going to integrate, so you may have some It could be Okta or any other So you're going to with your generative AI application. We have used Amazon but it could be anything. The request the CFO is asking The request gets passed to an which retrieves a filter. This filter is retrieved based on what access the CFO has; This filter along with the question that the CFO asks, gets for Amazon Bedrock, and a on the documents which match that filter. Now, whenever the filter that we originally used in the search result is retrieved. So because the CFO has access to all the finance related documents, the filter matches the metadata and only the relevant which are sent to the Large language model and a response is created. Now when the CFO is asking lead related stuff, the filter Now the documents are not returned. So that's how we prevent of the marketing data that So this is how we reduce the to only the filter criteria. So this was a quick walkthrough of how we implement persona-based access to our data
+
+            Output:
+             [/INST] - **Explanation of the Topic**:  In this explanation, we're discussing how to access specific information in a large amount of data based on a person's role. We have some files, like metadata, that help us sort and filter the data. We use a service like Okta or Amazon Bedrock to check what kind of access each person, like a CFO, has. Based on their role, only the relevant data that matches their filter gets sent to a large language model to create a response. This way, we keep the information personalized and focused on what each person needs.
+
+- **IT Domain Terms and Definitions**:
+  - **Metadata**: Information about other data, like labels or properties, that help us understand and organize the data.
+  - **Persona-based access**: A way to limit access to specific information based on a person's role or identity.
+  - **Filter**: A condition that narrows down the data to only show the relevant information.
+  - **Integration**: Connecting different software or systems to work together.
+  - **Large language model**: A computer program that can understand and generate human-like text based on the data it's given.
+  - **Access**: The right to view, use, or make changes to data or a system.
+  - **Role**: A job position or function that determines what tasks a person is responsible for and what kind of access they have.
+  - **Response**: The output or result that a system generates based on the data it processes.
+
+            ### Feedback:
+            [INST] 
+            Please evaluate the following explanation based on the following criteria:
+            1. Does it use friendly and everyday language suitable for a 6th grader?
+            2. Does it include all IT terms mentioned in the input text, with clear and relatable explanations?
+
+            After evaluating, provide feedback on how the explanation can be improved. Write the feedback in 1-2 sentences.
+
+            - Provide only the feedback without repeating the input text or adding comments.
+
+            ### Explanation to Evaluate:
+            [INST] 
+            Please read the following text and generate an explanation suitable for a **basic-level audience**. Use **friendly and everyday language** to make the explanation simple and relatable. Ensure that the output is written at a **Flesch-Kincaid Grade Level of approximately 6**. Follow the **exact format provided below**, and avoid including any information outside of this structure.
+
+            ### Explanation Format:
+            - **Explanation of the Topic**: 
+              Provide a clear summary of the main topic or concept discussed in the input text. Use friendly and conversational language.
+
+            - **IT Domain Terms and Definitions**: 
+              Identify IT-related technical terms in the input text and explain each term in a way that's easy to understand. Use analogies or examples from daily life to make the explanation relatable. For example:
+                - *"Cloud Computing"*:
+                  Imagine storing your favorite photos and videos in a magical online photo album that you can access from any device, anywhere. That’s what cloud computing does for your data.
+
+            ### Output Requirements:
+            - Write in clear and simple language that a 6th grader could understand.
+            - Include only the simplified explanation and term definitions in the output. 
+            - Do not include the additional comments, or any unrelated information.
+            - Provide only the explanation without repeating the input text or adding comments.
+
+            Here is the original text to explain:
+            Persona-based access and let's see how we can do that. So again, we have our documents. So here you will see two which are our metadata files. So in addition to our marketing and finance related to upload some metadata files here. Now we are also going to integrate, so you may have some It could be Okta or any other So you're going to with your generative AI application. We have used Amazon but it could be anything. The request the CFO is asking The request gets passed to an which retrieves a filter. This filter is retrieved based on what access the CFO has; This filter along with the question that the CFO asks, gets for Amazon Bedrock, and a on the documents which match that filter. Now, whenever the filter that we originally used in the search result is retrieved. So because the CFO has access to all the finance related documents, the filter matches the metadata and only the relevant which are sent to the Large language model and a response is created. Now when the CFO is asking lead related stuff, the filter Now the documents are not returned. So that's how we prevent of the marketing data that So this is how we reduce the to only the filter criteria. So this was a quick walkthrough of how we implement persona-based access to our data
+
+            Output:
+             [/INST] - **Explanation of the Topic**:  In this explanation, we're discussing how to access specific information in a large amount of data based on a person's role. We have some files, like metadata, that help us sort and filter the data. We use a service like Okta or Amazon Bedrock to check what kind of access each person, like a CFO, has. Based on their role, only the relevant data that matches their filter gets sent to a large language model to create a response. This way, we keep the information personalized and focused on what each person needs.
+
+- **IT Domain Terms and Definitions**:
+  - **Metadata**: Information about other data, like labels or properties, that help us understand and organize the data.
+  - **Persona-based access**: A way to limit access to specific information based on a person's role or identity.
+  - **Filter**: A condition that narrows down the data to only show the relevant information.
+  - **Integration**: Connecting different software or systems to work together.
+  - **Large language model**: A computer program that can understand and generate human-like text based on the data it's given.
+  - **Access**: The right to view, use, or make changes to data or a system.
+  - **Role**: A job position or function that determines what tasks a person is responsible for and what kind of access they have.
+  - **Response**: The output or result that a system generates based on the data it processes.
+
+            Feedback:
+             [/INST] The explanation is generally clear and uses friendly language, but it could benefit from simplifying some of the sentences and providing more relatable examples for the IT terms. For instance, instead of saying "This filter along with the question that the CFO asks, gets for Amazon Bedrock, and a response is created," it would be clearer to say "Amazon Bedrock uses the filter and the CFO's question to find and send the relevant data to the language model, which then creates a response." Additionally, providing examples like "Imagine a filter as a pair of glasses that only lets you see specific information, like a CFO only seeing financial data" could help make the concepts more relatable for a 6th grader.
+
+            ### Revised Explanation Requirements:
+            - Address the feedback points provided above.
+            - Maintain a Flesch-Kincaid Grade Level suitable for a 6th grader.
+            - Ensure clarity, conciseness, and relatability in the revised explanation.
+
+            - Provide only the revised explanation without repeating the input text or adding comments.
+
+            Please generate the revised explanation below:
+             [/INST] - **Explanation of the Topic**:  In this explanation, we're discussing how to access specific information from a large amount of data based on a person's role. We use files called metadata to help sort and filter the data. We use a service like Okta or Amazon Bedrock to check what kind of information each person, like a CFO, can access based on their role. The service then uses a filter to find the relevant data and sends it to a language model. The language model creates a response with the information the person requested.
+
+- **IT Domain Terms and Definitions**:
+  - **Metadata**: Think of metadata as labels or information that helps us understand and organize data, like labels on a box telling us what's inside.
+  - **Persona-based access**: This is a way to limit access to specific information based on a person's role or identity, like how a teacher might have access to student grades but not their personal information.
+  - **Filter**: Imagine a filter as a pair of glasses that only lets you see specific information. For example, a CFO might only see financial data, while a marketer might only see lead data.
+  - **Integration**: This means connecting different software or systems to work together.
+  - **Large language model**: This is a computer program that can understand and generate human-like text based on the data it's given, like a helpful assistant that can answer questions or write emails.
+  - **Access**: Access refers to the right to view, use, or make changes to data or a system.
+  - **Role**: A role is a job position or function that determines what tasks a person is responsible for and what kind of access they have.
+  - **Response**: The output or result that a system generates based on the data it processes, like an answer to a question or a completed task.
